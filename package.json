@@ -2,9 +2,10 @@
   "name": "slimmom-backend",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "cross-env NODE_ENV=production node ./server.js",
-    "dev": "cross-env NODE_ENV=development nodemon ./server.js",
+    "start:dev": "cross-env NODE_ENV=development nodemon ./server.js -L",
     "lint": "eslint **/*.js",
     "lint:fix": "eslint --fix **/*.js"
   },
@@ -44,13 +45,13 @@
   "main": ".eslintrc.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maksim-Yaroschuk/SlimMom-Backend.git"
+    "url": "git+https://github.com/charl2on381/SlimMom-Backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Maksim-Yaroschuk/SlimMom-Backend/issues"
+    "url": "https://github.com/charl2on381/SlimMom-Backend/issues"
   },
-  "homepage": "https://github.com/Maksim-Yaroschuk/SlimMom-Backend#readme"
+  "homepage": "https://github.com/charl2on381/SlimMom-Backend#readme"
 }
